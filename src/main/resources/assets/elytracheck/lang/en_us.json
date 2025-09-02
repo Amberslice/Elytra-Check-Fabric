@@ -1,1 +1,5 @@
-
+{
+  "category.elytracheck": "Elytra Check",
+  "key.elytracheck.toggle_fireworks": "Toggle Fireworks",
+  "key.elytracheck.toggle_torches": "Toggle Torches"
+}
