@@ -3,18 +3,24 @@
   "id": "elytracheck",
   "version": "1.0.0",
   "name": "Elytra Check",
-  "description": "Blocks fireworks without Elytra, adds firework/torch disable toggles with HUD feedback.",
-  "authors": ["YourName"],
+  "description": "Adds warnings when using fireworks without an Elytra and allows toggling firework/torch use.",
+  "authors": ["NCrittenden"],
+  "contact": {
+    "sources": "https://github.com/yourname/elytracheck"
+  },
   "license": "MIT",
-  "icon": "assets/elytracheck/icon.png",
+  "icon": "assets/elytracheck/textures/item/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
+    "main": [
       "com.example.elytracheck.ElytraCheckMod"
+    ],
+    "client": [
+      "com.example.elytracheck.ElytraCheckClient"
     ]
   },
   "depends": {
-    "fabricloader": ">=0.15.11",
+    "fabricloader": ">=0.15.0",
     "fabric": "*",
     "minecraft": "1.21.x"
   }
