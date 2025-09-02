@@ -1,5 +1,10 @@
 {
-  "category.elytracheck": "Elytra Check",
-  "key.elytracheck.toggle_fireworks": "Toggle Fireworks",
-  "key.elytracheck.toggle_torches": "Toggle Torches"
+  "key.elytracheck.toggle_fireworks": "Toggle Firework Usage",
+  "key.elytracheck.toggle_torches": "Toggle Torch Placement",
+
+  "message.elytracheck.no_elytra": "You need to wear an Elytra to use fireworks!",
+  "message.elytracheck.fireworks_disabled": "Firework usage disabled",
+  "message.elytracheck.fireworks_enabled": "Firework usage enabled",
+  "message.elytracheck.torches_disabled": "Torch placement disabled",
+  "message.elytracheck.torches_enabled": "Torch placement enabled"
 }
